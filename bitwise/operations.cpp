@@ -5,7 +5,7 @@ bool isPowerOfTwo(int num){
   if(num == 0)
      return false;
 
-  return ((  num  & (num -1)) == 0);
+  return ((  num  & (num - 1)) == 0);
 }
 
 int numOfSetBits(int num){
